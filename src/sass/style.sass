@@ -11,6 +11,19 @@
 	background-color: rgba(109, 133, 238, .01) 
 	border: solid 2px rgb(230, 227, 227) 
 
+
+=btn_hover
+	&:hover
+		background-color: rgb(109, 133, 238)
+		color: white
+		border: solid 2px rgb(109, 133, 238) 
+
+=btn_hover_proto
+	&:hover
+		background-color: rgba(109, 133, 238, .01) 
+		color: white
+		border: solid 2px white
+
 	
 * 
 	box-sizing: border-box 
@@ -59,8 +72,10 @@ header
 		@include btn_cicle_radius
 		background-color: rgb(109, 133, 238) 
 		border: solid 1px rgb(109, 133, 238) 
+		+btn_hover_proto
 	.promo_btn_more 
 		+promo_btn_more
+		+btn_hover
 	
 	.col_btn 
 		display: inline-block 
@@ -81,3 +96,4 @@ header
 		+promo_btn_more
 		border: solid 2px black
 		color: black
+		+btn_hover
