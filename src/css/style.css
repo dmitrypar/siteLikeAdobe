@@ -26,12 +26,14 @@ header nav .menu .logo img{
     width: 70px;
     }
 
-.promo {
-    background-color: gray;
-    background:  url('../img/fon_main.png') center center/cover no-repeat;
-    min-height: 800px;
-    padding-top: 100px;
-}
+    .common {
+        background-color: gray;
+        background:  url('../img/fon_main.png') center center/cover no-repeat;
+        min-height: 1000px;
+        padding-top: 100px;
+    }
+
+
 
 .promo .promo_title {
     color: white;
@@ -69,5 +71,26 @@ header nav .menu .logo img{
 }
 .promo .col_btn{
     display: inline-block;
+    text-align: center;
+}
+
+.main {
+    display: inline-block;
+    background-color: white;
+    margin: 40px 150px 40px 150px;
+}
+
+.main .main_img {
+    width: 100%;
+}
+
+.main .main-title {
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+    
+}
+
+.main .group  {
+  
     text-align: center;
 }
