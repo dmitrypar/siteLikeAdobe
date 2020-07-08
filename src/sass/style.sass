@@ -1,4 +1,8 @@
 
+$footer-color: grey 
+
+
+
 =btn_cicle_radius
 	border-radius: 30px 
 	width: 100px 
@@ -20,9 +24,10 @@
 
 =btn_hover_proto
 	&:hover
-		background-color: rgba(109, 133, 238, .01) 
+		background-color: rgba(109, 133, 238, 0) 
 		color: white
-		border: solid 2px white
+		
+
 
 	
 * 
@@ -97,3 +102,33 @@ header
 		border: solid 2px black
 		color: black
 		+btn_hover
+
+footer
+	margin: 40px 150px 40px 150px
+	.footer_title
+		color: $footer-color
+		padding-left: 40px
+	ul
+		
+		
+		list-style: none 
+		li
+			a
+				color: $footer-color
+
+	.border_right
+		border-right: solid 1px $footer-color
+		
+
+	.footer_item
+		padding-right: 30px
+		width: 80%
+
+	.copyright_section
+	
+		border-top: solid 1px $footer-color
+		margin-top: 20px
+		.copyright
+			color: $footer-color
+			margin: 40px auto auto 40px
+		
