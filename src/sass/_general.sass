@@ -7,20 +7,24 @@ header
 	nav 
 		.menu 
 			display: flex 
+			flex-direction: row
 			justify-content: space-between 
 			margin: 0 
 			padding: 10px 50px 10px 50px 
 			list-style: none 
 			.menu_link 
-				padding: 0 5px 0 5px 
 				color: black 
 				font-weight: 600 
+				font-size: 25px
 			.logo 
 				img 
 					width: 70px 
+					
+        
+    
 .common 
 	background-color: gray 
-	background: url('../img/fon_main.png') center center/cover no-repeat fixed
+	background: url('../img/fon_main.png') center center/cover no-repeat
 	min-height: 100%
 	padding: 5% 
 	
@@ -84,8 +88,12 @@ footer
 				color: $footer-color
 
 	.border_right
-		border-right: solid 1px $footer-color
-		
+		&1
+			border-right: solid 1px $footer-color
+		&2
+			border-right: solid 1px $footer-color
+		&3
+			border-right: solid 1px $footer-color
 
 	.footer_item
 		padding-right: 30px
